@@ -5,7 +5,7 @@ class CustomFilters {
     def filters = {
         all(controller: 'custom', action: '*') {
             before = {
-                println controllerName
+                println controllerName + " / " + actionName
                 return true
             }
         }
