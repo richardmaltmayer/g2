@@ -6,7 +6,7 @@ class CustomFilters {
         all(controller: 'custom', action: '*') {
             before = {
                 println controllerName + " / " + actionName
-                println "teste de sobrescrita"
+                println "teste de sobrescrita 17"
                 return true
             }
         }
