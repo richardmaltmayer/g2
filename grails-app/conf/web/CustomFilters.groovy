@@ -8,6 +8,7 @@ class CustomFilters {
                 println controllerName + " / " + actionName
                 println "teste de sobrescrita 17"
                 Long customerId = 10L
+                Long customerAccountId = 900L
                 
                 return true
             }
