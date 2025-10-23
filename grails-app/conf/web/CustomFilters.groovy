@@ -7,6 +7,8 @@ class CustomFilters {
             before = {
                 println controllerName + " / " + actionName
                 println "teste de sobrescrita 17"
+                Long customerId = 10L
+                
                 return true
             }
         }
